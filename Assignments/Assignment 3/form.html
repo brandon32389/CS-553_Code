@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Form Page</title>
+<head>
+
+<body style="background-color:#FBF8BE;">
+    <p><a href="Assignment_3.html">Home</a></p>
+    <h1 style="color:#234E70;">Feedback Form</h1>
+
+    <form method="post" action="http://webcsd.sacredheart.edu/randallj/cs553sp14/display_form_data.asp" id="myForm1">
+        Which place do you want to visit most?: <br/>
+        <input type="radio" name="FavoritePlace" value="Ireland" />Ireland<br/>
+        <input type="radio" name="FavoritePlace"  value="Canada" />Canada<br/>
+        <input type="radio" name="FavoritePlace"  value="Japan" />Japan<br/><br/>
+
+        What was your favorite Photo?
+        <select name="FavoritePicture" id="">
+            <option value="Dublin">Dublin</option>
+            <option value="NiagraFalls">Niagra Falls</option>
+            <option value="Tokyo">Tokyo</option>
+        </select><br/><br/>
+
+        Do you have any suggestions to make our site better?<br/>
+        <textarea name="Comment" cols="30" rows="10"></textarea> <br/><br/>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

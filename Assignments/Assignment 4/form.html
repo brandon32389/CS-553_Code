@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Form Page</title>
+    <link rel="stylesheet" href="main.css" />
+<head>
+
+<body>
+    <p><a href="index.html">Home</a></p>
+    <h1>Feedback Form</h1>
+
+    <div id="form">
+        <form method="post" action="http://webcsd.sacredheart.edu/randallj/cs553sp14/display_form_data.asp" id="myForm1">
+            <!-- I was trying to left justify the radio buttons to start at the beginning of the question but could not figure it out. -->
+            <div id="question-1">
+                <p>What place do you want to visit most?:</p> 
+                
+                <input class="radio-left" type="radio" name="FavoritePlace" value="Ireland" />Ireland <br/>
+                <input type="radio" name="FavoritePlace"  value="Canada" />Canada  <br/>
+                <input type="radio" name="FavoritePlace"  value="Japan"  />Japan   <br/><br/>
+                
+            </div>
+            <p>What was your favorite Photo?</p>
+            <select name="FavoritePicture" id="">
+                <option value="Dublin">Dublin</option>
+                <option value="NiagraFalls">Niagra Falls</option>
+                <option value="Tokyo">Tokyo</option>
+            </select><br/><br/>
+
+            <p>Do you have any suggestions to make our site better?</p><br/>
+            <textarea name="Comment" cols="30" rows="10"></textarea> <br/><br/>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

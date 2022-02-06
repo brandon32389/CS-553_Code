@@ -1,0 +1,34 @@
+p,li,td {
+    text-align: center;
+    color: #feffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #17252A;
+}
+body {
+    background-color: #3aafa9;
+}
+a {
+    color: #17252A;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-main, #form {
+    text-align: center;
+}
+
+/* .radio-left {
+    text-align: left;
+    display:block;
+
+    
+}
+#radio-buttons {
+    text-align:left;
+}
+#question-1 {
+    text-align: center;
+} */
