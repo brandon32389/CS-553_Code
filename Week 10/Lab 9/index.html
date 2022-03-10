@@ -1,0 +1,33 @@
+<!--  Brandon Cassidy -->
+<!--  03/09/22	-->
+<!--  Lab 9 -->
+<html>
+<head>
+	<title>Lab 9</title>
+
+
+    <script>
+        function Validate_Form(thisForm)
+        {
+            if (thisForm.fname.value == "")
+            {
+                return false;
+            } else if (thisForm.lname.value == "")
+            {
+                return false;
+            }else
+            {
+                return true;
+            }
+        }
+    </script>
+<head>
+
+<body>
+    <form action="http://webcsd.sacredheart.edu/randallj/cs553sp14/display_form_data.asp" method="post" onsubmit="return Validate_Form(this)">
+        First Name: <input type="text" value="" name="fname"> <br />
+        Last Name: <input type="text" value="" name="lname"> <br />
+        <input type="Submit">
+    </form>
+</body>
+</html>

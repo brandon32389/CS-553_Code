@@ -1,0 +1,42 @@
+
+.photos {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+.photo-gallery {
+    margin-left: 25%; 
+    margin-right: 25%;
+}
+.float-clear {
+    display: block;
+    clear: both;
+}
+#house-details {
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.house-description {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size:x-large;
+}
+.house-list{
+    float: left;
+}
+.list-left {
+    margin-left: 30%;
+    float: left;
+}
+.list-right {
+     margin-left: 400px; 
+     float: left;
+}
+#house-list-div li{
+    /* text-align: center; */
+    font-size: xx-large;
+    margin-top: 50px;
+}

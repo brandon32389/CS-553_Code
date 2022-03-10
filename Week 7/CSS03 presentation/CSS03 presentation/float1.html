@@ -1,0 +1,48 @@
+<script type="text/javascript">
+function removeElement(numId)
+{
+document.getElementById(numId).style.display="none";
+}
+</script>
+<style>
+.imgbox
+{
+float:left;
+text-align:center;
+width:120px;
+height:120px;
+border:1px solid gray;
+margin:4px;
+margin-bottom:8px;
+padding:0px;
+}
+.thumbnail 
+{
+width:110px;
+height:90px;
+margin:3px;
+}
+.box
+{
+width:110px;
+padding:0px;
+}
+</style>
+
+<div class="imgbox" id="imgbox1">
+
+<img class="thumbnail" src="klematis_small.jpg" width="107" height="90"><br />
+<input class="box" type="button" onclick="removeElement('imgbox1')" value="Remove image" />
+</div>
+<div class="imgbox" id="imgbox2">
+<img class="thumbnail" src="klematis2_small.jpg" width="107" height="80">
+<input class="box"  type="button" onclick="removeElement('imgbox2')" value="Remove image" />
+</div>
+<div class="imgbox" id="imgbox3">
+<img class="thumbnail" src="klematis3_small.jpg" width="116" height="90">
+<input class="box"  type="button" onclick="removeElement('imgbox3')" value="Remove image" />
+</div>
+<div class="imgbox" id="imgbox4">
+<img class="thumbnail" src="klematis4_small.jpg" width="107" height="90"><br />
+<input class="box" type="button" onclick="removeElement('imgbox4')" value="Remove image" />
+</div>

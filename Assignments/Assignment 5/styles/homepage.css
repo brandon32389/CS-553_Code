@@ -1,0 +1,23 @@
+
+#body-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+#closed {
+    vertical-align: text-top;
+}
+.body-table-centered {
+    text-align: center;
+}
+#body-table-container {
+    text-align: center;
+}
+#date-col {
+    padding-right: 250px;
+}
+#title {
+    color: #ffffff;
+}
+#hq {
+    margin-left: 20%;
+}

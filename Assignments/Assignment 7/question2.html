@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Qestion 2</title>
+    <!-- <script type="text/javascript" src="question2.js"></script> -->
+    <script>
+        function Question2(){
+            //Var to test while loop
+            isCorrect = false;
+            nameInput =""
+        
+            while(!isCorrect) {
+                nameInput = prompt("Enter your name:");
+        
+                isCorrect = confirm("Is " + nameInput +  " correct?")
+            }
+            
+            document.write("<h2><a href=\"index.html\">Home</a></h2>");
+            document.write("<h2> Question 2</p>");
+            document.write("<p> Welcome " + nameInput + "</p>"); 
+        }
+    </script>
+<head>
+
+<body>
+    <h2><a href="index.html">Home</a></h2>
+    <button onclick="Question2()">Question 2</button>
+</body>
+</html>

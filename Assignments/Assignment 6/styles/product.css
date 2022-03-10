@@ -1,0 +1,17 @@
+#section-photo-div {
+    margin-left: 33%; 
+    margin-right: 33%; 
+    display: inline;
+    text-align: center;
+} 
+.section-list{
+    font-size: 32pt;
+}
+#section-list-1 {
+    float: left;
+    margin-top: 65px;
+    margin-left: 600px;
+}
+#section-list-2 {
+    margin-left: 1500px;
+}

@@ -1,0 +1,28 @@
+<!--  Brandon Cassidy -->
+<!--  03/02/22		-->
+<!--  Lab 7 -->
+<html>
+<head>
+	<title>Lab 7</title>
+    <script>
+        function showImage(imgName) {
+            if(document.images){
+                document.images[0].src= eval(imgName + ".src");
+            }
+        }
+        if(document.images) {
+            homer = new Image();
+            homer.src = "homer.gif";
+            hibbert = new Image();
+            hibbert.src = "hibbert.gif";
+        }
+    </script>
+<head>
+
+<body>
+    <h1>
+        <a onmouseover="showImage('homer')" onmouseout="showImage('hibbert')"> Would you like a lollypop?</a>
+    </h1>
+    <img src="HIBBERT.GIF">
+</body>
+</html>

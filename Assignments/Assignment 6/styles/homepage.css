@@ -1,0 +1,26 @@
+#section-h1 {
+    text-align: center;
+}
+.section-photos {
+    /* float: left; */
+    display: inline;
+    margin-left: 200px;
+}
+#vs{
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 60px;
+    display: inline;
+}
+#section-content {
+    /* text-align: center; */
+}
+.section-content-p {
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#content-overview {
+    text-align: left;
+    /* This does not move the h2 tag for some reason. */
+    margin-left: 300px; 
+}

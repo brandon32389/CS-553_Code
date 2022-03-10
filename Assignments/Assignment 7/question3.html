@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Question 3</title>
+    <script type="text/javascript">
+        function Question3(){
+
+            grade = prompt("Enter a number between 1-100 that is your grade:");
+            gradeInt = parseInt(grade)
+            letterGrade ="";
+
+            switch(true){
+                case gradeInt > 89:
+                    letterGrade = "A";
+                    break;
+                case gradeInt > 79:
+                    letterGrade = "B";
+                    break;
+                case gradeInt > 69:
+                    letterGrade = "C";
+                    break;
+                case gradeInt > 59:
+                    letterGrade = "D";
+                    break;
+                default:
+                    letterGrade = "F";
+            }
+
+            document.write("<h2><a href=\"index.html\">Home</a></h2>");
+            document.write("<h2>Question 3</h2>");
+            document.write("<p>You entered: " + grade + "<br />" 
+                           + "Your grade is : " + letterGrade + "</p>");           
+        }
+    </script>
+<head>
+
+<body>
+    <h2><a href="index.html">Home</a></h2>
+    <button onclick="Question3()">Question 3</button>
+</body>
+</html>
